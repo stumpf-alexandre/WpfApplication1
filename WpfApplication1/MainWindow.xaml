@@ -1,0 +1,23 @@
+﻿<Window x:Class="WpfApplication1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApplication1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Button x:Name="btnAnd" Content="AND" HorizontalAlignment="Left" Margin="156,141,0,0" VerticalAlignment="Top" Width="83" FontSize="24"
+                Click="btnAnd_Click" Height="38"/>
+        <TextBox x:Name="txtVar1" HorizontalAlignment="Left" Height="48" Margin="316,60,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" FontSize="26.667" RenderTransformOrigin="0.686,0.434"/>
+        <TextBox x:Name="txtVar2" HorizontalAlignment="Left" Height="48" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Margin="64,60,0,0" FontSize="26.667"/>
+        <TextBlock x:Name="txbResult" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="39" RenderTransformOrigin="3.854,1.304" Margin="191,237,0,0" FontSize="26.667" Width="134"/>
+        <Button x:Name="btnNot" Content="NOT" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="34,141,0,0" FontSize="24"
+               Click="btnNot_Click" />
+        <Button x:Name="btnOr" Content="OR" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="279,141,0,0" FontSize="24" RenderTransformOrigin="0.305,-0.143"
+               Click="btnOr_Click" />
+        <Button x:Name="btnXor" Content="XOR" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="402,141,0,0" FontSize="24"
+                Click="btnXor_Click"/>
+
+    </Grid>
+</Window>
